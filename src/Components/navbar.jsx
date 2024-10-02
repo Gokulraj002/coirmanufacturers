@@ -26,15 +26,13 @@ function Navbar() {
     setSearchOpen(!searchOpen);
   };
 
-  const phoneNumber = "+91 9787118836";
-  const message = "Hello, I would like to inquire about your services.";
+const phoneNumber = "+919787118836";
+const message = "Hello, I would like to inquire about your services.";
 
-  const handleClick = () => {
-    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-      message
-    )}`;
-    window.open(url, "_blank");
-  };
+const handleClick = () => {
+  const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(phoneNumber)}&text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
 
   const location = useLocation();
 
