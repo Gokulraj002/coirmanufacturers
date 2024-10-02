@@ -1,0 +1,23 @@
+.product-img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text-justify {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .text-justify{
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+ 

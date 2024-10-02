@@ -1,0 +1,21 @@
+.footer-nav li{
+    display:inline;
+    font-size: 16px;
+    color: #000;
+    padding-right:15px;
+}
+.custom-nav-link {
+  text-decoration: none;
+  color: #000; 
+}
+
+.custom-nav-link:hover {
+  font-weight: bold;
+  color: #493112; 
+}
+.footer-icon li:hover{
+color: blue;
+}
+.ficon:hover{
+  color: skyblue;
+}

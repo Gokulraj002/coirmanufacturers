@@ -1,0 +1,37 @@
+.custom-form-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-label {
+    margin: 8px;
+  }
+
+  .contact-title:hover{
+    color: #493112;
+    cursor: pointer;
+  }
+
+  .contact-info:hover{
+    color: brown;
+    cursor: pointer;
+  }
+  .submit-btn{
+    font-weight: bold;
+    border-radius:15px;
+    padding: 13px 30px;
+    color: #fff;
+    border: none;
+    background: #4E2E05;
+  }
+  
+  .submit-btn:hover {
+    font-weight: bold !important;
+    border-radius: 15px !important;
+    padding: 13px 30px !important;
+    color: #000 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:1px solid gray !important;
+    background: #02ffd5 !important;
+    transition: all 0.7s ease !important;
+  }
